@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dn6gkru8obuwi"]
+
+[ext_resource type="Script" path="res://Scripts/main_text.gd" id="1_3wgs8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7y6l3"]
+font_size = 64
+
+[node name="Main Text" type="Label"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_7y6l3")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_3wgs8")
