@@ -13,3 +13,4 @@ config_version=5
 config/name="Auto Scorer"
 run/main_scene="res://Scenes/main_text.tscn"
 config/features=PackedStringArray("4.3")
+run/max_fps=60
